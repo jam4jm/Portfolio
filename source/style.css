@@ -5,8 +5,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 20px;
 }
-h1 {
-  color: #f23c5c;
+.name {
+  color: #f9f1f2;
   font-size: 72px;
 }
 h2 {
@@ -15,13 +15,21 @@ h2 {
 h3 {
   font-size: 54px;
 }
-.greeting img {
+h4 {
+  font-size: 28px;
+}
+.greeting img,
+.about img {
   display: block;
   margin: auto;
 }
-.greeting {
+.greeting,
+.about {
   margin-top: 130px;
   margin-bottom: 100px;
+}
+.about-info {
+  padding-right: 70px;
 }
 .pin {
   max-width: 35px;
@@ -107,4 +115,7 @@ h3 {
     padding: 10px 15px;
     font-size: 16px;
   }
+}
+.about-info p {
+  font-size: 24px;
 }
