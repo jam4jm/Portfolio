@@ -22,6 +22,15 @@ h5 {
   font-size: 24px;
   padding-top: 20px;
 }
+.contact-link a {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.contact-link:hover {
+  text-decoration: underline;
+}
 .greeting img,
 .about img {
   display: block;
@@ -40,12 +49,14 @@ h5 {
   max-width: 35px;
   padding-bottom: 25px;
 }
-.project-name span {
+.project-name span,
+.contacts-title span {
   font-weight: bold;
   font-size: 48px;
   padding-left: 10px;
 }
-.projects {
+.projects,
+.contacts {
   margin: 70px;
 }
 .project-info {
@@ -90,6 +101,14 @@ h5 {
 .project-img {
   box-shadow: var(--box-shadow);
 }
+.about-info p {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.work {
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   body {
     text-align: center;
@@ -127,11 +146,7 @@ h5 {
     padding: 10px 15px;
     font-size: 16px;
   }
-}
-.about-info p {
-  font-size: 24px;
-  padding-bottom: 25px;
-}
-.work {
-  text-align: center;
+  .about-info {
+    padding-right: 10px;
+  }
 }
