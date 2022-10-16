@@ -28,7 +28,8 @@ h5 {
   color: black;
   text-decoration: none;
 }
-.contact-link:hover {
+.contact-link:hover,
+.work a:hover {
   text-decoration: underline;
 }
 .greeting img,
@@ -108,29 +109,61 @@ h5 {
 .work {
   text-align: center;
 }
-
+.logo {
+  max-width: 100px;
+}
+nav {
+  margin: 10px 50px;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  padding-left: 10px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav a,
+.work a {
+  color: black;
+  text-decoration: none;
+}
+nav li.active a {
+  color: #ffd043;
+}
 @media (max-width: 960px) {
   body {
     text-align: center;
     margin: 10px;
   }
-  h1 {
-    font-size: 52px;
+  .name {
+    font-size: 42px;
   }
+  h1,
   h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
   h3 {
     font-size: 34px;
   }
-
+  h4 {
+    font-size: 24px;
+  }
   .pin {
     max-width: 25px;
     padding-bottom: 12px;
   }
-  .project-name span {
+  .project-name span,
+  .contacts-title span {
     font-size: 28px;
     padding-left: 7px;
+  }
+  nav {
+    margin: 10px 10px;
   }
   .project-info {
     font-size: 16px;
@@ -148,5 +181,8 @@ h5 {
   }
   .about-info {
     padding-right: 10px;
+  }
+  .about-info p {
+    font-size: 20px;
   }
 }
